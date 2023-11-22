@@ -1,0 +1,122 @@
+[
+  {
+    "pickup_delivery": "pickup",
+    "credit_collect": "credit",
+    "delivery_fee": 0,
+    "tax_rate": 5,
+    "stricter_authorization": "TRUE",
+    "processing_cost": "TRUE",
+    "turnaround_pickup_hours": 1,
+    "turnaround_pickup_minutes": 30,
+    "turnaround_delivery_hours": 0,
+    "turnaround_delivery_minutes": 0
+  },
+  {
+    "pickup_delivery": "delivery",
+    "credit_collect": "collect",
+    "delivery_fee": 5,
+    "tax_rate": 10,
+    "stricter_authorization": "FALSE",
+    "processing_cost": "FALSE",
+    "turnaround_pickup_hours": 0,
+    "turnaround_pickup_minutes": 0,
+    "turnaround_delivery_hours": 2,
+    "turnaround_delivery_minutes": 15
+  },
+  {
+    "pickup_delivery": "pickup",
+    "credit_collect": "collect",
+    "delivery_fee": 0,
+    "tax_rate": 10,
+    "stricter_authorization": "FALSE",
+    "processing_cost": "FALSE",
+    "turnaround_pickup_hours": 0,
+    "turnaround_pickup_minutes": 45,
+    "turnaround_delivery_hours": 0,
+    "turnaround_delivery_minutes": 0
+  },
+  {
+    "pickup_delivery": "delivery",
+    "credit_collect": "credit",
+    "delivery_fee": 5,
+    "tax_rate": 5,
+    "stricter_authorization": "FALSE",
+    "processing_cost": "TRUE",
+    "turnaround_pickup_hours": 0,
+    "turnaround_pickup_minutes": 0,
+    "turnaround_delivery_hours": 0,
+    "turnaround_delivery_minutes": 15
+  },
+  {
+    "pickup_delivery": "delivery",
+    "credit_collect": "credit",
+    "delivery_fee": 10,
+    "tax_rate": 15,
+    "stricter_authorization": "TRUE",
+    "processing_cost": "TRUE",
+    "turnaround_pickup_hours": 0,
+    "turnaround_pickup_minutes": 0,
+    "turnaround_delivery_hours": 2,
+    "turnaround_delivery_minutes": 30
+  },
+  {
+    "pickup_delivery": "pickup",
+    "credit_collect": "credit",
+    "delivery_fee": 0,
+    "tax_rate": 5,
+    "stricter_authorization": "FALSE",
+    "processing_cost": "FALSE",
+    "turnaround_pickup_hours": 1,
+    "turnaround_pickup_minutes": 0,
+    "turnaround_delivery_hours": 0,
+    "turnaround_delivery_minutes": 0
+  },
+  {
+    "pickup_delivery": "delivery",
+    "credit_collect": "credit",
+    "delivery_fee": 10,
+    "tax_rate": 10,
+    "stricter_authorization": "FALSE",
+    "processing_cost": "FALSE",
+    "turnaround_pickup_hours": 0,
+    "turnaround_pickup_minutes": 0,
+    "turnaround_delivery_hours": 0,
+    "turnaround_delivery_minutes": 45
+  },
+  {
+    "pickup_delivery": "pickup",
+    "credit_collect": "credit",
+    "delivery_fee": 0,
+    "tax_rate": 10,
+    "stricter_authorization": "FALSE",
+    "processing_cost": "FALSE",
+    "turnaround_pickup_hours": 0,
+    "turnaround_pickup_minutes": 30,
+    "turnaround_delivery_hours": 0,
+    "turnaround_delivery_minutes": 0
+  },
+  {
+    "pickup_delivery": "pickup",
+    "credit_collect": "collect",
+    "delivery_fee": 0,
+    "tax_rate": 10,
+    "stricter_authorization": "FALSE",
+    "processing_cost": "TRUE",
+    "turnaround_pickup_hours": 0,
+    "turnaround_pickup_minutes": 30,
+    "turnaround_delivery_hours": 0,
+    "turnaround_delivery_minutes": 0
+  },
+  {
+    "pickup_delivery": "delivery",
+    "credit_collect": "collect",
+    "delivery_fee": 10,
+    "tax_rate": 5,
+    "stricter_authorization": "FALSE",
+    "processing_cost": "FALSE",
+    "turnaround_pickup_hours": 0,
+    "turnaround_pickup_minutes": 0,
+    "turnaround_delivery_hours": 0,
+    "turnaround_delivery_minutes": 15
+  }
+]
