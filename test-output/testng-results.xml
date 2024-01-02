@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-01T17:57:46 CET" name="Suite" finished-at="2024-01-01T17:59:18 CET" duration-ms="92264">
+    <groups>
+    </groups>
+    <test started-at="2024-01-01T17:57:46 CET" name="Test_0" finished-at="2024-01-01T17:59:18 CET" duration-ms="92264">
+      <class name="Spothopper.QA.TestCases.OnlineOrdersTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:57:46 CET" name="launchApplication" finished-at="2024-01-01T17:57:48 CET" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="setHours()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:57:48 CET" name="setHours" finished-at="2024-01-01T17:58:06 CET" duration-ms="18036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHours -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:58:06 CET" name="closeWindow" finished-at="2024-01-01T17:58:06 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:58:06 CET" name="launchApplication" finished-at="2024-01-01T17:58:07 CET" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="setMenus()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:58:07 CET" name="setMenus" finished-at="2024-01-01T17:58:23 CET" duration-ms="16401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMenus -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:58:23 CET" name="closeWindow" finished-at="2024-01-01T17:58:23 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:58:23 CET" name="launchApplication" finished-at="2024-01-01T17:58:24 CET" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="setOnlineOrders(java.util.HashMap)[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:58:24 CET" name="setOnlineOrders" data-provider="getData" finished-at="2024-01-01T17:58:42 CET" duration-ms="17909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{stricter_authorization=FALSE, discount_code=NONE, turnaround_pickup_minutes=30, now_later=now, processing_cost=TRUE, discount=0, discount_percentage_amount_none=none, tax_rate=5, turnaround_delivery_minutes=0, delivery_fee=0, pickup_delivery=pickup, turnaround_pickup_hours=1, turnaround_delivery_hours=0, credit_collect=credit, restaurant_tip=10}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setOnlineOrders -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:58:42 CET" name="closeWindow" finished-at="2024-01-01T17:58:42 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:58:42 CET" name="launchApplication" finished-at="2024-01-01T17:58:43 CET" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="setOnlineOrders(java.util.HashMap)[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:58:43 CET" name="setOnlineOrders" data-provider="getData" finished-at="2024-01-01T17:59:03 CET" duration-ms="19749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{stricter_authorization=TRUE, discount_code=NONE, turnaround_pickup_minutes=0, now_later=later, processing_cost=TRUE, discount=0, discount_percentage_amount_none=none, tax_rate=5, turnaround_delivery_minutes=15, delivery_fee=5, pickup_delivery=delivery, turnaround_pickup_hours=0, turnaround_delivery_hours=0, credit_collect=credit, restaurant_tip=15}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setOnlineOrders -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:59:03 CET" name="closeWindow" finished-at="2024-01-01T17:59:03 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:59:03 CET" name="launchApplication" finished-at="2024-01-01T17:59:03 CET" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="deleteMenus()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:59:03 CET" name="deleteMenus" finished-at="2024-01-01T17:59:18 CET" duration-ms="14959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMenus -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Spothopper.QA.TestCases.OnlineOrdersTest@3e27aa33]" started-at="2024-01-01T17:59:18 CET" name="closeWindow" finished-at="2024-01-01T17:59:18 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- Spothopper.QA.TestCases.OnlineOrdersTest -->
+    </test> <!-- Test_0 -->
+  </suite> <!-- Suite -->
+</testng-results>

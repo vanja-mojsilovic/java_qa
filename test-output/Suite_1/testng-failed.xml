@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite_1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test_0(failed)">
+    <classes>
+      <class name="Spothopper.QA.TestCases.OnlineOrdersTest">
+        <methods>
+          <include name="closeWindow"/>
+          <include name="launchApplication"/>
+          <include name="deleteMenus"/>
+          <include name="setMenus"/>
+        </methods>
+      </class> <!-- Spothopper.QA.TestCases.OnlineOrdersTest -->
+    </classes>
+  </test> <!-- Test_0(failed) -->
+</suite> <!-- Failed suite [Suite_1] -->
